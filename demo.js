@@ -2,6 +2,7 @@ const p = document.getElementById('count')
 let c = 0; 
 function increment ()
 {
+    if(c<20)
     c = c + 1; 
     p.innerHTML = c;
 }
